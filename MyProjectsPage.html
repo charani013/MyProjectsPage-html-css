@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="MyProjectsPage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div id="sectionHome">
+        <div class="imgcenter">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="img" />
+            <h1 class="myprojectheading">My Projects</h1>
+            <p class="myprojectparagraph">These are a few of my Static website projects that I have developed using HTML,CSS and Bootstrap</p>
+        </div>
+        <div class="imgpadding">
+            <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="myprojectimg" onclick="display('sectionAT')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="myprojectimg" onclick="display('sectionDiwali')" />
+            </div>
+            <div class="d-flex flex-row">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="myprojectimg" onclick="display('sectionHapplymeals')" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="myprojectimg" onclick="display('sectionNews')" />
+            </div>
+        </div>
+    </div>
+    <div id="sectionAT">
+        <div class="bg-imageAT d-flex flex-column justify-content-end">
+            <div class="bg-clr">
+                <h1 class="main-heading">
+                    Advanced Technologies
+                </h1>
+                <p class="paragraph">Machinery and equipment develop from the application of scientific knwoledge.</p>
+                <button class="button1">Learn more</button>
+                <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionHapplymeals">
+        <div class="bgimage d-flex flex-column justify-content-end">
+            <div class="cards">
+                <h1 class="main-heading">Happy Meals</h1>
+                <p class="padding">Discover the best foods over the 1,000 restaurants</p>
+                <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionNews">
+        <div class="bg-imagenews d-flex flex-column justify-content-end">
+            <div class="bg-clr">
+                <p class="heading">
+                    NEWS OF THE DAY
+                </p>
+                <h1 class="heading1">
+                    All educational institutions in Assam to reopen from November 2
+                </h1>
+                <p class="paragraph">
+                    Uttar Pradesh's Gautam Buddh Nagar recorded 107 new Covid-19 cases on Saturday, pushing
+                    the district's infection tally to 15,803, offical data showed. The number of active cases came down further
+                    to 1,384 from 1,477 on Friday and 1,523 on Thursday, according to the data released by the UP Health Department
+                    for a 24-hour period.
+                </p>
+                <button class="button">Read more</button>
+                <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionDiwali">
+        <div class="bg-image">
+            <h1 class="diwali-image-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="bg-img">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="bg-card">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="img-size" />
+                    <h1 class="headingdiwali">Diwali Air </h1>
+                    <p class="paragraphdiwali">Rs 369</p>
+                </div>
+                <div class="bg-card">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="img-size" />
+                    <h1 class="headingdiwali">Diwali Lamp </h1>
+                    <p class="paragraphdiwali">Rs 50</p>
+                </div>
+            </div>
+            <div class="bg-img d-flex flex-row justify-content-center">
+                <div class="bg-card">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="img-size" />
+                    <h1 class="headingdiwali">Spaklers </h1>
+                    <p class="paragraphdiwali">Rs 150</p>
+                </div>
+                <div class="bg-card">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="img-size" />
+                    <h1 class="headingdiwali">Fire Cracker</h1>
+                    <p class="paragraphdiwali">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+  </body>
+</html>
